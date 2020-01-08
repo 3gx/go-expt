@@ -26,5 +26,16 @@ func main() {
     x = x + "second"
     fmt.Println(x)
   }
+  {
+    var x string = "hello"
+    var y string = "world"
+    fmt.Println(x == y)
+  }
+  {
+    x := "Hello world"
+    fmt.Println(x)
+    y := 5
+    fmt.Println(y)
+  }
 }
 
